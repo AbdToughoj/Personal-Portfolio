@@ -1,0 +1,190 @@
+html{
+    position: relative;
+    /* overflow: hidden; */
+    color: #1A2E35;
+    font-family: 'Indie Flower', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*include the content, padding, and border, but do not include the margin (the other option is content-box
+                            only includes the content)  */
+  }
+
+#navbar {
+    width:100vw;
+    position: fixed;
+    top: 0;
+    min-height: 60px;
+    padding: 0px 40px;
+    background-color: #F24B5A;
+    box-shadow: 3px 3px 18px 6px #10272f;
+}
+
+a {
+    text-decoration:none;
+    color:black;
+    font-size:30px;
+}
+
+#nav-items {
+    font-weight: bold;
+    padding-top: 10px;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    list-style: none;
+    
+}
+
+#landing-image {
+    width: 100%; 
+    align-self:self-end;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+	background-color:white;
+	width:45%;
+	float:left;
+	height:100vh;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;	
+}
+
+.right-section{
+    background-image: url("image-1.jpg");
+    background-size: cover;
+    background-position: center;
+    vertical-align:middle;
+	width:55%;
+	float:left;
+	height:100vh;
+	margin:0;
+	padding:0;
+}
+
+#welcome-section{
+    height:100vh;
+    background-color: white;
+    
+}
+#about{
+    height:100vh;
+    background-color: #385A64;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner-about {
+    text-align: center;
+    color:bisque;
+    font-size: 32px;;
+    padding : 40px;
+    height: 80%;
+    width: 80%;
+    background-color: #1A2E35;
+    box-shadow: 10px 10px 18px 6px #10272f;
+    border-radius: 25px;
+
+}
+
+@media (max-width: 1300px) {
+    #inner-about {
+        font-size: 28;
+    }
+}
+
+@media (max-width: 986px) {
+    #inner-about {
+        font-size: 25;
+    }
+}
+
+@media (max-width: 756px) {
+    #inner-about {
+        font-size: 22;
+    }
+}
+
+#projects{
+    width: 100%;
+    height:100vh;
+    background-color: #1A2E35;
+}
+
+#inner-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+    color:bisque;
+    font-size: 32px;
+    padding : 40px;
+}
+
+.project-tile {
+    vertical-align: middle;
+    color: #10272f;
+    width : 30%;
+    height: 80%;
+    margin: 30px;
+    padding:20px;
+    background-color: white;
+    box-shadow: 10px 10px 18px 6px black;
+    border-radius: 25px;
+}
+
+.project-title{
+    font-size: 35px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+#contact-info{
+    height:100vh;
+    background-color: #385A64;
+}
+
+#name {
+    font-weight: bolder;
+    font-size: 70px;
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+}
+
+#contact-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    color:bisque;
+    font-size: 32px;
+    padding : 40px;
+}
+
+#big-title{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 100px;
+}
+
+.contact-label{
+    font-family: 'Luckiest Guy', cursive; 
+}
+
+
+
+
+
+
